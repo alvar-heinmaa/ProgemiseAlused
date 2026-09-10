@@ -11,7 +11,6 @@
             //see number salvestatakse string andemetüüpi
             //toimub kontroll, kes sisestatud väärtus on number
             //kasutada if ja else lauseid
-                    Console.WriteLine("ERROR.Numbrid ei sisestatud");
 
 
             Console.WriteLine("sisesta number");
