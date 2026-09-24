@@ -16,6 +16,7 @@
                     Console.WriteLine($"number {nr} on Paaris");
                     //siia tuleb välja kutsuda meetod,
                     //mis ütleb, et see on paarisarv
+                    EvenNumberMethod();
 
                 }
                 else
@@ -23,16 +24,23 @@
                     Console.WriteLine($"number {nr} on Paaritu");
                     //siia tuleb välja kutsuda meetod,
                     //mis ütleb, et see on paarituarv
+                    OddNumberMethod();
                 }
-         static void EvenNumberMethod()
+            }
 
-                }
-                    {
-                    
-                }
-               
 
-            } 
+            static void EvenNumberMethod()
+            {
+
+                Console.WriteLine("See on paarisarv");
+            }
+
+
+            static void OddNumberMethod()
+            {
+                Console.WriteLine("See on paarituarv");
+
+            }
             //konsool küsib numbrit
             //number tuleb ära parsida
 
