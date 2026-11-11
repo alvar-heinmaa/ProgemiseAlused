@@ -16,8 +16,13 @@
             //killadi - koll
             //kill - koll
             //for loopi sees peab olema for loop
-            for (int i = 0; i < 3; i++)
+            //peab saama sisestada arvu, mitu korda soovib väljundit korrata
+            //iga kord, kui hakkb väljundit kordama, siis näitab rea numbrit 
+            Console.WriteLine("kui palju kordab");
+            int kordab = Convert.ToInt32(Console.ReadLine());
+            for (int i = 1; i <= kordab; i++)
             {
+                Console.WriteLine("See on rida nr {0}", i);
                 for (int j = 0; j < 3; j++)
                 {
                     if (j == 2)
