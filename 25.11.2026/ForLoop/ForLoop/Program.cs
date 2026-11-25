@@ -29,6 +29,9 @@ namespace ForLoop
                         (row == height - 1 && location == 2 * row - 1) ||
                         (row == height && location == row);
 
+                    Console.ForegroundColor = thing
+                        ? ConsoleColor.Red : ConsoleColor.Green;
+
                     //ternary operaator: muutuja ? (kaks valikut peale seda)
                     // kui esimene valik on vale, siis vali teine e
                     //kui ei tule o-d, siis pane *
@@ -37,7 +40,7 @@ namespace ForLoop
 
                 Console.WriteLine();
             }
-
+             Console.ForegroundColor = ConsoleColor.DarkYellow;
             for (int row = 1; row <= 2; row++)
             {
                 for (int empty = 1; empty < height; empty++)
